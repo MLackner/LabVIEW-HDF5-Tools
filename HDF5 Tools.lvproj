@@ -16,6 +16,7 @@
 			<Item Name="Create Structure.vi" Type="VI" URL="../Create Structure.vi"/>
 			<Item Name="Get Data Size.vi" Type="VI" URL="../Get Data Size.vi"/>
 			<Item Name="Get Fields.vi" Type="VI" URL="../Get Fields.vi"/>
+			<Item Name="Start And Count.vi" Type="VI" URL="../Start And Count.vi"/>
 			<Item Name="Walk Structure.vi" Type="VI" URL="../Walk Structure.vi"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
@@ -336,7 +337,6 @@
 			<Item Name="lvimptsl.dll" Type="Document" URL="lvimptsl.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Start And Count.vi" Type="VI" URL="../../../../labview_code/HDF5 Test 2/Start And Count.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
