@@ -8,7 +8,8 @@ Make sure h5labview is not installed. UPVI Live HDF5 does only work on Windows m
 
 ## Known Issues
 
-Can't write into array of strings.
+* Can't write into array of strings.
+* Error when creating datasets from empty arrays
 
 ## Functionality
 
