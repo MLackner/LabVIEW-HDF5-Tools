@@ -6,6 +6,10 @@
 Somewhere is stated that there may be conflicts between UPVI Live HDF5 and h5labview.
 Make sure h5labview is not installed. UPVI Live HDF5 does only work on Windows machines.
 
+## Known Issues
+
+Can't write into array of strings.
+
 ## Functionality
 
 To get an overview of what this does take a look at the following Julia code:
