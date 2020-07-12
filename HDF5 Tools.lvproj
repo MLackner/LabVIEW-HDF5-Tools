@@ -11,14 +11,15 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Test" Type="Folder">
-			<Item Name="Create HDF File.lvtest" Type="TestItem" URL="../Create HDF File.lvtest">
-				<Property Name="utf.test.bind" Type="Str">HDF5 Tools.lvlib:Create HDF File.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">5DF8B758-A3D2-8983-D5A2-42B315FC5E97</Property>
-			</Item>
 			<Item Name="HDF5 Test.vi" Type="VI" URL="../HDF5 Test.vi"/>
 			<Item Name="mytype.ctl" Type="VI" URL="../mytype.ctl"/>
 			<Item Name="read_and_write_test.vi" Type="VI" URL="../read_and_write_test.vi"/>
 			<Item Name="test.vi" Type="VI" URL="../test.vi"/>
+			<Item Name="UT - Create and Write to HDF File.lvtest" Type="TestItem" URL="../UT - Create and Write to HDF File.lvtest">
+				<Property Name="utf.test.bind" Type="Str">UT - Create and Write to HDF File.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">64D79713-C5E9-1ADF-B126-01141A25D11D</Property>
+			</Item>
+			<Item Name="UT - Create and Write to HDF File.vi" Type="VI" URL="../UT - Create and Write to HDF File.vi"/>
 			<Item Name="UT - Create HDF File.lvtest" Type="TestItem" URL="../UT - Create HDF File.lvtest">
 				<Property Name="utf.test.bind" Type="Str">UT - Create HDF File.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">8C67C449-B33A-C5EB-AA3B-79FB369FD0D7</Property>
@@ -159,6 +160,7 @@
 				<Item Name="H5Fget_obj_ids.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/file.llb/H5Fget_obj_ids.vi"/>
 				<Item Name="H5Fopen.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/file.llb/H5Fopen.vi"/>
 				<Item Name="H5G_obj_t.ctl" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/group.llb/H5G_obj_t.ctl"/>
+				<Item Name="H5garbage_collect.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/library.llb/H5garbage_collect.vi"/>
 				<Item Name="H5Gclose.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/group.llb/H5Gclose.vi"/>
 				<Item Name="H5Gcreate.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/group.llb/H5Gcreate.vi"/>
 				<Item Name="H5Gget_num_objs.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/group.llb/H5Gget_num_objs.vi"/>
