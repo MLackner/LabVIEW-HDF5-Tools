@@ -10,20 +10,20 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Private" Type="Folder">
-			<Item Name="Check Type.vi" Type="VI" URL="../Check Type.vi"/>
-			<Item Name="Create Dataset.vi" Type="VI" URL="../Create Dataset.vi"/>
-			<Item Name="Create Structure.vi" Type="VI" URL="../Create Structure.vi"/>
-			<Item Name="Get Data Size.vi" Type="VI" URL="../Get Data Size.vi"/>
-			<Item Name="Get Fields.vi" Type="VI" URL="../Get Fields.vi"/>
-			<Item Name="Start And Count.vi" Type="VI" URL="../Start And Count.vi"/>
-			<Item Name="Walk Structure.vi" Type="VI" URL="../Walk Structure.vi"/>
-		</Item>
 		<Item Name="Test" Type="Folder">
+			<Item Name="Create HDF File.lvtest" Type="TestItem" URL="../Create HDF File.lvtest">
+				<Property Name="utf.test.bind" Type="Str">HDF5 Tools.lvlib:Create HDF File.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">5DF8B758-A3D2-8983-D5A2-42B315FC5E97</Property>
+			</Item>
 			<Item Name="HDF5 Test.vi" Type="VI" URL="../HDF5 Test.vi"/>
 			<Item Name="mytype.ctl" Type="VI" URL="../mytype.ctl"/>
 			<Item Name="read_and_write_test.vi" Type="VI" URL="../read_and_write_test.vi"/>
 			<Item Name="test.vi" Type="VI" URL="../test.vi"/>
+			<Item Name="UT - Create HDF File.lvtest" Type="TestItem" URL="../UT - Create HDF File.lvtest">
+				<Property Name="utf.test.bind" Type="Str">UT - Create HDF File.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">8C67C449-B33A-C5EB-AA3B-79FB369FD0D7</Property>
+			</Item>
+			<Item Name="UT - Create HDF File.vi" Type="VI" URL="../UT - Create HDF File.vi"/>
 		</Item>
 		<Item Name="HDF5 Tools.lvlib" Type="Library" URL="../HDF5 Tools.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -114,6 +114,7 @@
 				<Item Name="From HDF5 Ref.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/common.llb/From HDF5 Ref.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHDF5TreeItemIcons.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/utility.llb/private/GetHDF5TreeItemIcons.vi"/>
