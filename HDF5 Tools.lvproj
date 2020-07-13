@@ -11,6 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Test" Type="Folder">
+			<Item Name="UT - Big Data.vi" Type="VI" URL="../UT - Big Data.vi"/>
 			<Item Name="UT - Create and Write to HDF File - No Label.lvtest" Type="TestItem" URL="../UT - Create and Write to HDF File - No Label.lvtest">
 				<Property Name="utf.test.bind" Type="Str">UT - Create and Write to HDF File - No Label.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">732D89BE-B88E-7C13-D4CB-B3E73709D86D</Property>

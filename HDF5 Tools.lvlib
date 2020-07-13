@@ -7,7 +7,6 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Check Type.vi" Type="VI" URL="../Check Type.vi"/>
 		<Item Name="Create Dataset.vi" Type="VI" URL="../Create Dataset.vi"/>
-		<Item Name="Create Named Group.vi" Type="VI" URL="../Create Named Group.vi"/>
 		<Item Name="Create Structure.vi" Type="VI" URL="../Create Structure.vi"/>
 		<Item Name="Get Data Size.vi" Type="VI" URL="../Get Data Size.vi"/>
 		<Item Name="Get Fields.vi" Type="VI" URL="../Get Fields.vi"/>
@@ -18,4 +17,6 @@
 		<Item Name="Create HDF File.vi" Type="VI" URL="../Create HDF File.vi"/>
 		<Item Name="Write to HDF File.vi" Type="VI" URL="../Write to HDF File.vi"/>
 	</Item>
+	<Item Name="Skip or Attribute.vi" Type="VI" URL="../Skip or Attribute.vi"/>
+	<Item Name="Write to Hyperslab.vi" Type="VI" URL="../Write to Hyperslab.vi"/>
 </Library>
