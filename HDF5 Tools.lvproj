@@ -11,10 +11,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Test" Type="Folder">
-			<Item Name="UT - Case Selectors.lvtest" Type="TestItem" URL="../UT - Case Selectors.lvtest">
-				<Property Name="utf.test.bind" Type="Str">UT - Label Selectors.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">2FAA2E20-6460-2AC5-ADBE-D78A3DF52A42</Property>
-			</Item>
 			<Item Name="UT - Create and Write to HDF File - No Label.lvtest" Type="TestItem" URL="../UT - Create and Write to HDF File - No Label.lvtest">
 				<Property Name="utf.test.bind" Type="Str">UT - Create and Write to HDF File - No Label.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">732D89BE-B88E-7C13-D4CB-B3E73709D86D</Property>
@@ -30,11 +26,18 @@
 				<Property Name="utf.vector.test.bind" Type="Str">8C67C449-B33A-C5EB-AA3B-79FB369FD0D7</Property>
 			</Item>
 			<Item Name="UT - Create HDF File.vi" Type="VI" URL="../UT - Create HDF File.vi"/>
+			<Item Name="UT - Label Selectors Write.lvtest" Type="TestItem" URL="../UT - Label Selectors Write.lvtest">
+				<Property Name="utf.test.bind" Type="Str">UT - Label Selectors Write.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">72E686D3-F56A-9537-3681-824C955F2FA9</Property>
+			</Item>
+			<Item Name="UT - Label Selectors Write.vi" Type="VI" URL="../UT - Label Selectors Write.vi"/>
+			<Item Name="UT - Label Selectors.lvtest" Type="TestItem" URL="../UT - Label Selectors.lvtest">
+				<Property Name="utf.test.bind" Type="Str">UT - Label Selectors.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">1712654F-5167-7175-6454-3E92535241C0</Property>
+			</Item>
 			<Item Name="UT - Label Selectors.vi" Type="VI" URL="../UT - Label Selectors.vi"/>
 		</Item>
 		<Item Name="HDF5 Tools.lvlib" Type="Library" URL="../HDF5 Tools.lvlib"/>
-		<Item Name="Skip or Attribute.vi" Type="VI" URL="../Skip or Attribute.vi"/>
-		<Item Name="Write to Hyperslab.vi" Type="VI" URL="../Write to Hyperslab.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
