@@ -11,10 +11,11 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Test" Type="Folder">
-			<Item Name="HDF5 Test.vi" Type="VI" URL="../HDF5 Test.vi"/>
-			<Item Name="mytype.ctl" Type="VI" URL="../mytype.ctl"/>
-			<Item Name="read_and_write_test.vi" Type="VI" URL="../read_and_write_test.vi"/>
-			<Item Name="test.vi" Type="VI" URL="../test.vi"/>
+			<Item Name="UT - Create and Write to HDF File - No Label.lvtest" Type="TestItem" URL="../UT - Create and Write to HDF File - No Label.lvtest">
+				<Property Name="utf.test.bind" Type="Str">UT - Create and Write to HDF File - No Label.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">732D89BE-B88E-7C13-D4CB-B3E73709D86D</Property>
+			</Item>
+			<Item Name="UT - Create and Write to HDF File - No Label.vi" Type="VI" URL="../UT - Create and Write to HDF File - No Label.vi"/>
 			<Item Name="UT - Create and Write to HDF File.lvtest" Type="TestItem" URL="../UT - Create and Write to HDF File.lvtest">
 				<Property Name="utf.test.bind" Type="Str">UT - Create and Write to HDF File.vi</Property>
 				<Property Name="utf.vector.test.bind" Type="Str">64D79713-C5E9-1ADF-B126-01141A25D11D</Property>
@@ -135,7 +136,6 @@
 				<Item Name="H5Aopen_name.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/attribute.llb/H5Aopen_name.vi"/>
 				<Item Name="H5Aread (Variant).vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/attribute.llb/H5Aread (Variant).vi"/>
 				<Item Name="H5Awrite (Variant).vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/attribute.llb/H5Awrite (Variant).vi"/>
-				<Item Name="H5close.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/library.llb/H5close.vi"/>
 				<Item Name="H5D_layout_t.ctl" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/property.llb/H5D_layout_t.ctl"/>
 				<Item Name="H5Dclose.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/H5Dclose.vi"/>
 				<Item Name="H5Dcreate.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/H5Dcreate.vi"/>
@@ -193,7 +193,6 @@
 				<Item Name="H5Sclose.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataspace.llb/H5Sclose.vi"/>
 				<Item Name="H5Screate.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataspace.llb/H5Screate.vi"/>
 				<Item Name="H5Screate_simple.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataspace.llb/H5Screate_simple.vi"/>
-				<Item Name="H5Sget_select_npoints.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataspace.llb/H5Sget_select_npoints.vi"/>
 				<Item Name="H5Sget_simple_extent_dims.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataspace.llb/H5Sget_simple_extent_dims.vi"/>
 				<Item Name="H5Sget_simple_extent_ndims.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataspace.llb/H5Sget_simple_extent_ndims.vi"/>
 				<Item Name="H5Sselect_all.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataspace.llb/H5Sselect_all.vi"/>
