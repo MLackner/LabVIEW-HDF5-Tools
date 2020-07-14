@@ -11,6 +11,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Test" Type="Folder">
+			<Item Name="UT - Big Data.lvtest" Type="TestItem" URL="../UT - Big Data.lvtest">
+				<Property Name="utf.test.bind" Type="Str">UT - Big Data.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">F0061769-16F8-EEB9-A8C4-ECE8D26F78D3</Property>
+			</Item>
 			<Item Name="UT - Big Data.vi" Type="VI" URL="../UT - Big Data.vi"/>
 			<Item Name="UT - Create and Write to HDF File - No Label.lvtest" Type="TestItem" URL="../UT - Create and Write to HDF File - No Label.lvtest">
 				<Property Name="utf.test.bind" Type="Str">UT - Create and Write to HDF File - No Label.vi</Property>
@@ -37,6 +41,11 @@
 				<Property Name="utf.vector.test.bind" Type="Str">1712654F-5167-7175-6454-3E92535241C0</Property>
 			</Item>
 			<Item Name="UT - Label Selectors.vi" Type="VI" URL="../UT - Label Selectors.vi"/>
+			<Item Name="UT - Saving Different Types.lvtest" Type="TestItem" URL="../UT - Saving Different Types.lvtest">
+				<Property Name="utf.test.bind" Type="Str">UT - Saving Different Types.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">320292E8-BA9A-C484-6C68-473207CD9DD7</Property>
+			</Item>
+			<Item Name="UT - Saving Different Types.vi" Type="VI" URL="../UT - Saving Different Types.vi"/>
 		</Item>
 		<Item Name="HDF5 Tools.lvlib" Type="Library" URL="../HDF5 Tools.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">

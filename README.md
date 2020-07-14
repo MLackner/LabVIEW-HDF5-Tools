@@ -8,8 +8,10 @@ Make sure h5labview is not installed. UPVI Live HDF5 does only work on Windows m
 
 ## Known Issues
 
-* Can't write into array of strings.
 * Error when creating datasets from empty arrays
+* Datasets can't have more than 2147483648 elements, otherwise there is an I32 overflow.
+* Not all LabVIEW types are supported. Unsupported types include:
+	* file path
 
 ## Functionality
 
