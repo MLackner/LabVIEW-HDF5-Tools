@@ -10,43 +10,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Test" Type="Folder">
-			<Item Name="UT - Big Data.lvtest" Type="TestItem" URL="../UT - Big Data.lvtest">
-				<Property Name="utf.test.bind" Type="Str">UT - Big Data.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">F0061769-16F8-EEB9-A8C4-ECE8D26F78D3</Property>
-			</Item>
-			<Item Name="UT - Big Data.vi" Type="VI" URL="../UT - Big Data.vi"/>
-			<Item Name="UT - Create and Write to HDF File - No Label.lvtest" Type="TestItem" URL="../UT - Create and Write to HDF File - No Label.lvtest">
-				<Property Name="utf.test.bind" Type="Str">UT - Create and Write to HDF File - No Label.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">732D89BE-B88E-7C13-D4CB-B3E73709D86D</Property>
-			</Item>
-			<Item Name="UT - Create and Write to HDF File - No Label.vi" Type="VI" URL="../UT - Create and Write to HDF File - No Label.vi"/>
-			<Item Name="UT - Create and Write to HDF File.lvtest" Type="TestItem" URL="../UT - Create and Write to HDF File.lvtest">
-				<Property Name="utf.test.bind" Type="Str">UT - Create and Write to HDF File.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">64D79713-C5E9-1ADF-B126-01141A25D11D</Property>
-			</Item>
-			<Item Name="UT - Create and Write to HDF File.vi" Type="VI" URL="../UT - Create and Write to HDF File.vi"/>
-			<Item Name="UT - Create HDF File.lvtest" Type="TestItem" URL="../UT - Create HDF File.lvtest">
-				<Property Name="utf.test.bind" Type="Str">UT - Create HDF File.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">8C67C449-B33A-C5EB-AA3B-79FB369FD0D7</Property>
-			</Item>
-			<Item Name="UT - Create HDF File.vi" Type="VI" URL="../UT - Create HDF File.vi"/>
-			<Item Name="UT - Label Selectors Write.lvtest" Type="TestItem" URL="../UT - Label Selectors Write.lvtest">
-				<Property Name="utf.test.bind" Type="Str">UT - Label Selectors Write.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">72E686D3-F56A-9537-3681-824C955F2FA9</Property>
-			</Item>
-			<Item Name="UT - Label Selectors Write.vi" Type="VI" URL="../UT - Label Selectors Write.vi"/>
-			<Item Name="UT - Label Selectors.lvtest" Type="TestItem" URL="../UT - Label Selectors.lvtest">
-				<Property Name="utf.test.bind" Type="Str">UT - Label Selectors.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">1712654F-5167-7175-6454-3E92535241C0</Property>
-			</Item>
-			<Item Name="UT - Label Selectors.vi" Type="VI" URL="../UT - Label Selectors.vi"/>
-			<Item Name="UT - Saving Different Types.lvtest" Type="TestItem" URL="../UT - Saving Different Types.lvtest">
-				<Property Name="utf.test.bind" Type="Str">UT - Saving Different Types.vi</Property>
-				<Property Name="utf.vector.test.bind" Type="Str">320292E8-BA9A-C484-6C68-473207CD9DD7</Property>
-			</Item>
-			<Item Name="UT - Saving Different Types.vi" Type="VI" URL="../UT - Saving Different Types.vi"/>
-		</Item>
 		<Item Name="HDF5 Tools.lvlib" Type="Library" URL="../HDF5 Tools.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
